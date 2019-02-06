@@ -1,0 +1,17 @@
+html, body, .container {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+};
+
+.canvas-container {
+    flex: 12;
+}
+
+.controls-container {
+    flex: 4;
+}
